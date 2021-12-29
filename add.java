@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 import com.google.gson.reflect.TypeToken;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet(urlPatterns = "/CreateNote")
+@WebServlet(urlPatterns = "/add")
 public class add extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
    final static String URL = "jdbc:mysql://180.76.189.89/linux_final";
